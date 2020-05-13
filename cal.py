@@ -1,3 +1,5 @@
+import cgitb cgitb.enable()
+start_response('200 OK', [('Content-Type', 'text/html')])
 def calculate():
     operation = input('''
 Please type in the math operation you would like to complete:
